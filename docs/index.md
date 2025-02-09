@@ -7,6 +7,8 @@ title: Optimized Institutional Staking Strategy
 ##### **Date:** Febuary 9, 2024
 ##### **Author:** Benjamin Zawodni - Founder CEO - Hodler Staking Services
 
+---
+
 ## **1. Executive Summary**
 
 This document outlines an optimized staking strategy for institutional investors operating private Cardano stake pools. The strategy centers on maximizing rewards by converting the maximimum practical ammount of delegated ADA to pledged ADA, leveraging the Cardano reward mechanism's incentive structure for higher pledge.  This approach, applied to fully self-funded, private pools, results in a quantifiable increase in Return on Investment (ROI) compared to strategies with lower pledge ratios.  The analysis includes a mathematical derivation of the reward formula and a clear demonstration of the percentage increase in rewards achievable through full pledge.
