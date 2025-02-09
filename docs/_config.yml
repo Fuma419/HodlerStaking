@@ -1,1 +1,21 @@
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/Tactile
+plugins:
+  - jekyll-remote-theme
+title: Optimized Institutional Staking Strategy
+description: Cardano Staking Protocol
+show_downloads: false
+
+
+# Architect
+# Cayman
+# Dinky
+# Hacker
+# Leap day
+# Merlot
+# Midnight
+# Minima
+# Minimal
+# Modernist
+# Slate
+# Tactile
+# Time machine

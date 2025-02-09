@@ -3,11 +3,9 @@ layout: default
 title: Optimized Institutional Staking Strategy
 ---
 
-## **Optimized Institutional Staking Strategy: Cardano Staking Protocol**
-
-#### **Document Version:** 1.0
-#### **Date:** Febuary 9, 2024
-#### **Author:** Benjamin Zawodni - Founder CEO - Hodler Staking Services
+##### **Document Version:** 1.0
+##### **Date:** Febuary 9, 2024
+##### **Author:** Benjamin Zawodni - Founder CEO - Hodler Staking Services
 
 ## **1. Executive Summary**
 
@@ -42,7 +40,7 @@ Where:
 
 For a private, self-funded pool, the optimal strategy to maximize total rewards is to convert all delegated ADA to pledged ADA. This means setting `s = σ`.  We will analyze a scenario where the pool is operating below saturation, at 93% saturation.
 
-### **4.1 Scenario: 93% Saturated Pool**
+#### **4.1 Scenario: 93% Saturated Pool**
 
 Let's assume the pool holds 93% of the saturation level (`z0`).  Therefore:
 
@@ -50,7 +48,7 @@ Let's assume the pool holds 93% of the saturation level (`z0`).  Therefore:
 *    Initial pledge `s_initial= 0`
 *    Final pledge `s_final = σ_initial`
 
-### **4.2 Mathematical Derivation of Reward Increase**
+#### **4.2 Mathematical Derivation of Reward Increase**
 
 **Initial Rewards (Before Pledge Increase):**
 
@@ -67,7 +65,7 @@ The percentage increase in rewards is the key metric:
 
 **Key Result:** The percentage increase in rewards simplifies to `(a0 * 0.93^2) * 100`.  This is *independent* of the total rewards (`R`), the pool's total stake, and the saturation parameter (`z0`).
 
-### **4.3 Numerical Example**
+#### **4.3 Numerical Example**
 
 Assuming a typical `a0` value of 0.3:
 
@@ -94,6 +92,5 @@ For institutional investors operating private, self-funded Cardano stake pools, 
 
 ## **8. Appendix**
 * Cardano Improvement Proposals: https://cips.cardano.org/
-* Cardano Staking Calculator: [Include a link to a reputable, up-to-date Cardano staking calculator if available]
 
 ---
