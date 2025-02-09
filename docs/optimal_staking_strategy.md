@@ -1,3 +1,8 @@
+ ---
+ layout: default
+ title: Optimized Institutional Staking Strategy
+ ---
+ 
 ## **Optimized Institutional Staking Strategy: Cardano Staking Protocol**
 
 #### **Document Version:** 1.0
