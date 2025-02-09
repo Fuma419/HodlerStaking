@@ -3,9 +3,9 @@ layout: default
 title: Optimized Institutional Staking Strategy
 ---
 
-##### **Document Version:** 1.1
+##### **Document Version:** 1.2
 ##### **Date:** Febuary 9, 2024
-##### **Author:** Benjamin Zawodni - Founder CEO - Hodler Staking Services
+##### **Author:** Benjamin Zawodni - Founder CEO - [Hodler Staking Services](https://www.hodlerstaking.com/)
 
 ---
 
@@ -96,5 +96,6 @@ Therefore, converting all delegated ADA to pledge in this 93% saturated, private
 
 For institutional investors operating private, self-funded Cardano stake pools, converting all delegated ADA to pledged ADA represents an optimized staking strategy. This approach leverages the Cardano reward mechanism to achieve a substantial and quantifiable increase in total rewards.  The mathematical derivation and numerical example clearly demonstrate the benefits, with a potential ROI increase of approximately 25.95% (assuming `a0 = 0.3`) for a 93% saturated pool.  While minor risks exist, they are easily mitigated through careful planning and liquidity management. This strategy provides a clear path to maximizing returns on Cardano staking investments for institutional participants.
 
-## **8. Appendix**
+## **8. Refrences**
+* Protocol Documentation: [https://docs.cardano.org/about-cardano/learn/pledging-rewards](https://docs.cardano.org/about-cardano/learn/pledging-rewards)
 * Cardano Improvement Proposals: [https://cips.cardano.org/](https://cips.cardano.org/)
