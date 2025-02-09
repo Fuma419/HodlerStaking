@@ -1,0 +1,29 @@
+/* Force narrow layout (max-width: 959px) for all screen sizes */
+@media screen and (min-width: 960px) {
+    .wrapper {
+      width: 90%; /* Or whatever percentage/fixed width you prefer */
+      max-width: 959px; /* This is the key - keep it under 960px */
+      margin: 0 auto; /* Center the content */
+    }
+  
+    section {
+      width: 100%;
+      float: none;
+      padding-right: 0;
+    }
+  
+    header {
+      width: 100%;
+      position: relative; /* Keep the header contained */
+      top: 0;
+      left: auto;
+      float: none;
+      text-align: center;
+    }
+  
+    header h1 {
+      line-height: 1.2;
+      margin-bottom: 0.5em;
+      font-size: 2em; /*Adjust as needed for your preferred heading size.*/
+    }
+  }
