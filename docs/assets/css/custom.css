@@ -1,0 +1,19 @@
+/* assets/css/custom.css */
+
+/* Adjust the base font and colors for a corporate look */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  /* Optionally, adjust container width if you want a wider content area */
+  .container {
+    max-width: 1200px;
+  }
+  
+  /* Customize the navbar appearance */
+  .navbar {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  

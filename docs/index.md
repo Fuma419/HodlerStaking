@@ -7,7 +7,7 @@ title: Optimized Institutional Staking Strategy
 
 #### **Document Version:** 1.0
 #### **Date:** Febuary 9, 2024
-#### **Author:** Hodler Staking Services
+#### **Author:** Benjamin Zawodni - Founder and CEO of Hodler Staking Services
 
 ## **1. Executive Summary**
 
