@@ -1,19 +1,24 @@
 /* assets/css/custom.css */
 
-/* Adjust the base font and colors for a corporate look */
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
     color: #333;
-    background-color: #fff;
   }
   
-  /* Optionally, adjust container width if you want a wider content area */
-  .container {
-    max-width: 1200px;
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
   }
   
-  /* Customize the navbar appearance */
-  .navbar {
-    border-bottom: 1px solid #e5e5e5;
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .hero {
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  }
+  
+  footer {
+    font-size: 0.9rem;
   }
   
