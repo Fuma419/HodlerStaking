@@ -78,11 +78,11 @@ Percentage Increase = ((Rewards_final - Rewards_initial) / Rewards_initial) * 10
 ```
 
 **Key Result:** 
-**The percentage increase in rewards simplifies to `(a0 * 0.93^2) * 100`.  This is *independent* of the total rewards (`R`), the pool's total stake, and the saturation parameter (`z0`).**
+The percentage increase in rewards simplifies to `(a0 * 0.93^2) * 100`.  This is *independent* of the total rewards (`R`), the pool's total stake, and the saturation parameter (`z0`).
 
 #### **4.3 Numerical Example**
 
-**For example, with `a0 = 0.3`:**
+For example, with `a0 = 0.3`:
 
 ```
 Percentage Increase = 0.3 * 0.93^2 * 100 = 25.947%
