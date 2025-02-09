@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <!-- Theme’s CSS is loaded automatically by Jekyll -->
+  <!-- Your custom CSS: -->
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+</head>
+<body>
+  <div class="container">
+    {{ content | markdownify }}
+  </div>
+</body>
+</html>
