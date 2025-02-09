@@ -11,15 +11,15 @@ title: Optimized Institutional Staking Strategy
 
 ## **1. Executive Summary**
 
-**This document outlines an optimized staking strategy for institutional investors operating private Cardano stake pools. The strategy centers on maximizing rewards by converting the maximum practical amount of delegated ADA to pledged ADA, leveraging the Cardano reward mechanism's incentive structure for higher pledge.  This approach, applied to fully self-funded, private pools, results in a quantifiable increase in Return on Investment (ROI) compared to strategies with lower pledge ratios.  The analysis includes a mathematical derivation of the reward formula and a clear demonstration of the percentage increase in rewards achievable through full pledge.**
+This document outlines an optimized staking strategy for institutional investors operating private Cardano stake pools. The strategy centers on maximizing rewards by converting the maximum practical amount of delegated ADA to pledged ADA, leveraging the Cardano reward mechanism's incentive structure for higher pledge.  This approach, applied to fully self-funded, private pools, results in a quantifiable increase in Return on Investment (ROI) compared to strategies with lower pledge ratios.  The analysis includes a mathematical derivation of the reward formula and a clear demonstration of the percentage increase in rewards achievable through full pledge.
 
 ## **2. Introduction**
 
-**Cardano's Ouroboros Praos consensus mechanism distributes staking rewards to incentivize participation and secure the network. Stake pool operators (SPOs) can influence their rewards through operational parameters, most notably the pledged amount of ADA. This document focuses on a specific scenario: an institutional investor operating a *private*, *self-funded* stake pool, meaning the investor controls 100% of the stake.  In this context, "optimized" refers to maximizing the total ADA rewards received by the investor, acting as both pool operator and sole delegator.**
+Cardano's Ouroboros Praos consensus mechanism distributes staking rewards to incentivize participation and secure the network. Stake pool operators (SPOs) can influence their rewards through operational parameters, most notably the pledged amount of ADA. This document focuses on a specific scenario: an institutional investor operating a *private*, *self-funded* stake pool, meaning the investor controls 100% of the stake.  In this context, "optimized" refers to maximizing the total ADA rewards received by the investor, acting as both pool operator and sole delegator.
 
 ## **3. Cardano Reward Mechanism Overview**
 
-**The Cardano reward formula, central to this strategy, is defined as follows:**
+The Cardano reward formula, central to this strategy, is defined as follows:
 
 
 ![Formula image]({{ "/assets/pledge_formula.png" | relative_url }}){: width="400px"}
@@ -44,40 +44,38 @@ title: Optimized Institutional Staking Strategy
 
 ## **4. Optimized Strategy: Full Pledge**
 
-**For a private, self-funded pool, the optimal strategy to maximize total rewards is to convert all delegated ADA to pledged ADA. This means setting `s = σ`.  We will analyze a scenario where the pool is operating below saturation, at 93% saturation.**
+For a private, self-funded pool, the optimal strategy to maximize total rewards is to convert all delegated ADA to pledged ADA. This means setting `s = σ`.  We will analyze a scenario where the pool is operating below saturation, at 93% saturation.
 
 #### **4.1 Scenario: 93% Saturated Pool**
 
-**Let's assume the pool holds 93% of the saturation level (`z0`).  Therefore:**
+Let's assume the pool holds 93% of the saturation level (`z0`).  Therefore:
 
 *    `σ_initial = 0.93 * z0 = 0.93 / k`
 *    Initial pledge `s_initial= 0`
 *    Final pledge `s_final = σ_initial`
 
 #### **4.2 Mathematical Derivation of Reward Increase**
+Initial Rewards (Before Pledge Increase):
 
-**Initial Rewards (Before Pledge Increase):**
-
-**With zero initial pledge (`s_initial = 0`), the initial pool rewards are:**
+With zero initial pledge (`s_initial = 0`), the initial pool rewards are:
 ```
 Rewards_initial = R * (σ_initial) / (1 + a0)
 = R * (0.93 / k) / (1 + a0)
 ```
 **Final Rewards (After Full Pledge):**
 
-**After converting all delegation to pledge, `s_final = σ_initial = 0.93 / k`. The pool rewards become:**
+After converting all delegation to pledge, `s_final = σ_initial = 0.93 / k`. The pool rewards become:
 ```
 Rewards_final = R * (σ_initial + (s_final * a0 * ((σ_initial - s_final * ((z0 - σ_initial) / z0)) / z0)))/ (1 + a0)
 = R * (0.93/k) * (1 + a0 * 0.93^2) / (1 + a0)
 ```
 **Percentage Increase in Rewards:**
+The percentage increase in rewards is the key metric:
 ```
-**Percentage Increase = ((Rewards_final - Rewards_initial) / Rewards_initial) * 100**
+Percentage Increase = ((Rewards_final - Rewards_initial) / Rewards_initial) * 100
 =  ((R * (0.93/k) * (1 + a0 * 0.93^2) / (1 + a0) - R * (0.93 / k) / (1 + a0)) / (R * (0.93 / k) / (1 + a0))) * 100
 = (a0 * 0.93^2) * 100
 ```
-**The percentage increase in rewards is the key metric:**
-
 
 **Key Result:** 
 **The percentage increase in rewards simplifies to `(a0 * 0.93^2) * 100`.  This is *independent* of the total rewards (`R`), the pool's total stake, and the saturation parameter (`z0`).**
