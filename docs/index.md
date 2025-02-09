@@ -11,7 +11,7 @@ title: Optimized Institutional Staking Strategy
 
 ## **1. Executive Summary**
 
-This document outlines an optimized staking strategy for institutional investors operating private Cardano stake pools. The strategy centers on maximizing rewards by converting the maximimum practical ammount of delegated ADA to pledged ADA, leveraging the Cardano reward mechanism's incentive structure for higher pledge.  This approach, applied to fully self-funded, private pools, results in a quantifiable increase in Return on Investment (ROI) compared to strategies with lower pledge ratios.  The analysis includes a mathematical derivation of the reward formula and a clear demonstration of the percentage increase in rewards achievable through full pledge.
+This document outlines an optimized staking strategy for institutional investors operating private Cardano stake pools. The strategy centers on maximizing rewards by converting the maximum practical amount of delegated ADA to pledged ADA, leveraging the Cardano reward mechanism's incentive structure for higher pledge.  This approach, applied to fully self-funded, private pools, results in a quantifiable increase in Return on Investment (ROI) compared to strategies with lower pledge ratios.  The analysis includes a mathematical derivation of the reward formula and a clear demonstration of the percentage increase in rewards achievable through full pledge.
 
 ## **2. Introduction**
 
@@ -21,15 +21,19 @@ Cardano's Ouroboros Praos consensus mechanism distributes staking rewards to inc
 
 The Cardano reward formula, central to this strategy, is defined as follows:
 
+
+![Formula image]({{ "/assets/pledge_formula.png" | relative_url }}){: width="400px"}
+
+
 Where:
 
 *   **`R`:** Total ADA rewards available for distribution in a given epoch.
-*   **`a0`:** Pledge influence parameter (a protocol-defined constant).  A higher `a0` increases the impact of pledge on rewards.
-*   **`z0`:** Saturation parameter (defined as `1/k`, where `k` is the desired number of pools – a protocol parameter).  Represents the optimal pool size.
+*   **`a0`:** Pledge influence parameter (a protocol-defined constant). A higher `a0` increases the impact of pledge on rewards.
+*   **`z0`:** Saturation parameter (defined as `1/k`, where `k` is the desired number of pools – a protocol parameter). Represents the saturation point, or the optimal pool size.
 *   **`σ`:** Relative stake of the pool (Total Pool Stake / Total Circulating ADA Supply).
-*   **`s`:** Relative stake pledged by the pool operator (Pledged ADA / Total Circulating ADA Supply).
+*   **`s`:** Relative pledge (Pledged ADA / Total Circulating ADA Supply).
 *   **`σ' = min(σ, z0)`:** The relative stake of the pool, capped at the saturation point.
-*   **`s' = min(s, z0)`:** The relative stake pledged, capped at the saturation point.
+*   **`s' = min(s, z0)`:** The relative pledge, capped at the saturation point.
 
 **Reward Distribution:**
 
@@ -69,7 +73,7 @@ The percentage increase in rewards is the key metric:
 
 #### **4.3 Numerical Example**
 
-Assuming a typical `a0` value of 0.3:
+For example, with `a0 = 0.3`:
 
 `Percentage Increase = 0.3 * 0.93^2 * 100 = 25.947%`
 
@@ -93,6 +97,4 @@ Therefore, converting all delegated ADA to pledge in this 93% saturated, private
 For institutional investors operating private, self-funded Cardano stake pools, converting all delegated ADA to pledged ADA represents an optimized staking strategy. This approach leverages the Cardano reward mechanism to achieve a substantial and quantifiable increase in total rewards.  The mathematical derivation and numerical example clearly demonstrate the benefits, with a potential ROI increase of approximately 25.95% (assuming `a0 = 0.3`) for a 93% saturated pool.  While minor risks exist, they are easily mitigated through careful planning and liquidity management. This strategy provides a clear path to maximizing returns on Cardano staking investments for institutional participants.
 
 ## **8. Appendix**
-* Cardano Improvement Proposals: https://cips.cardano.org/
-
----
+* Cardano Improvement Proposals: [https://cips.cardano.org/](https://cips.cardano.org/)
