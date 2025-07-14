@@ -59,5 +59,24 @@
     }
   },
   "authors": [],
-  "hashAlgorithm": "blake2b-256"
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Hodler Coalition",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://raw.githubusercontent.com/Fuma419/HodlerStaking/refs/heads/main/Full_Logo_Coalition.png",
+      "sha256": "f0a76d70d0d4b8c31ba5354cd8fb52b3808319088ff0777ff2e24ce57266aca3"
+    },
+    "motivations": "Working to improve the long term functionality and reliability of the Cardano ecosystem",
+    "objectives": "Applying the technology of tomorrow to the problems of today.",
+    "paymentAddress": "addr1q9n6mxkrrey8ys6vst9rr9vpt85t92xrpxe9du4al7d33cah4f889p4yrfzz6u84knuqf8vf4vkhph3u5dqnzrgxzngqnjg232",
+    "qualifications": "Midnight Validator (testnet) + Mithril Signer + Icebreaker + Dapp Development + Solar Powered + 24/7 Failover + Battery Backup + Preprod & Preview pools",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Hodler Coalition Website",
+        "uri": "https://www.hodlerstaking.com/"
+      }
+    ]
+  }
 }
