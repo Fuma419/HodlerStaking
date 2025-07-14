@@ -28,7 +28,14 @@
         },
         "paymentAddress": "CIP119:paymentAddress",
         "givenName": "CIP119:givenName",
-        "image": "CIP119:image",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
         "objectives": "CIP119:objectives",
         "motivations": "CIP119:motivations",
         "qualifications": "CIP119:qualifications",
@@ -52,35 +59,23 @@
     }
   },
   "authors": [],
-  "hashAlgorithm": {
-    "@value": "blake2b-256"
-  },
+  "hashAlgorithm": "blake2b-256",
   "body": {
-    "doNotList": false,
-    "givenName": {
-      "@value": "Hodler Coalition"
+    "givenName": "Hodler Coalition",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://raw.githubusercontent.com/Fuma419/HodlerStaking/main/Hodler_Green_Icon_round.png",
+      "sha256": "6cee2a07a25dbdad3e6198ce386730e1b4d1c7763d3c09f07c19f12dd62c67ea"
     },
-    "motivations": {
-      "@value": "As a long-time Cardano supporter, stake pool operator (HODLR), and active contributor to the ecosystem, I believe DReps play a critical role in fostering transparency and accountability within governance. My experience as a Cardano node operator, developer, and engaged community member gives me the tools and insights to represent delegators' voices responsibly."
-    },
-    "objectives": {
-      "@value": "The Hodler Coalition aims to represent long-term holders and community members committed to the sustainable and decentralized growth of the Cardano ecosystem. Our mission is to ensure responsible decision-making that prioritizes decentralization, security, and innovation to benefit the Cardano community."
-    },
-    "paymentAddress": {
-      "@value": "addr1q9n6mxkrrey8ys6vst9rr9vpt85t92xrpxe9du4al7d33cah4f889p4yrfzz6u84knuqf8vf4vkhph3u5dqnzrgxzngqnjg232"
-    },
-    "qualifications": {
-      "@value": "- Stake Pool Operator: Managing and operating the HODLR stake pool, ensuring high uptime and reliability.\n- Technical Expertise: Experienced in running Cardano mainnet, preview, preprod, midngiht, and mithril nodes, as well as developing tools for the ecosystem.\n- Community Involvement: Active participant in Cardano governance discussions and technical forums.\n- Development Skills: Built a custom Cardano wallet and delegation portals,  demonstrating a deep technical understanding of the Cardano blockchain."
-    },
+    "motivations": "Working to improve the long term functionality and reliability of the Cardano ecosystem",
+    "objectives": "Applying the technology of tomorrow to the problems of today.",
+    "paymentAddress": "addr1q9n6mxkrrey8ys6vst9rr9vpt85t92xrpxe9du4al7d33cah4f889p4yrfzz6u84knuqf8vf4vkhph3u5dqnzrgxzngqnjg232",
+    "qualifications": "Midnight Validator (testnet) + Mithril Signer + Icebreaker + Dapp Development + Solar Powered + 24/7 Failover + Battery Backup + Preprod & Preview pools",
     "references": [
       {
         "@type": "Link",
-        "label": {
-          "@value": "Hodler Website"
-        },
-        "uri": {
-          "@value": "https://www.hodlerstaking.com/"
-        }
+        "label": "Hodler Coalition Website",
+        "uri": "https://www.hodlerstaking.com/"
       }
     ]
   }
