@@ -1,46 +1,75 @@
 {
   "adapools": {
-    "about": {},
-    "members": {
-      "1": {
-        "name": "Midnight",
-        "poolId": "pool1eaeynp2hs06v4x8q65jfm2xqcd3dc80rv220gmxvwg8m5sd6e7a",
-        "poolHash": "cf7249855783f4ca98e0d5249da8c0c362dc1de36294f46ccc720fba",
-        "social": {
-          "website": "https://www.hodlerstaking.com",
-          "twitter": "HodlerCoalition",
-          "discord": "Abrahamer_HodlerCoalition#0802",
-          "telegram": "@HodlerStaking",
-          "emailAddress": "hodlercoalition@gmail.com",
-          "youtube": "",
-          "facebook": ""
+    "about": {
+      "operatorName": "Hodler Staking Services",
+      "100%renewables?": "Yes"
+    },
+    "mainnet": {
+      "members": {
+        "1": {
+          "name": "Midnight",
+          "poolId": "pool1eaeynp2hs06v4x8q65jfm2xqcd3dc80rv220gmxvwg8m5sd6e7a",
+          "poolHash": "cf7249855783f4ca98e0d5249da8c0c362dc1de36294f46ccc720fba",
+          "social": {
+            "website": "https://www.hodlerstaking.com",
+            "twitter": "HodlerCoalition",
+            "discord": "Abrahamer_HodlerCoalition#0802",
+            "telegram": "@HodlerStaking",
+            "emailAddress": "hodlercoalition@gmail.com",
+            "youtube": "",
+            "facebook": ""
+          }
         },
-        "operatorName": "Hodler Staking Services",
-        "100%renewables?": "Yes",
-        "membershipType?": "Active",
-        "github": "Fuma419",
-        "ispoEpochStart": 377,
-        "donationWalletStakeAddress": "stake1ux7kq406tvp64r69fmx2sqykzxnee4hgu2cv9zr9vv563xsmh9jjm"
-      },
-      "2": {
-        "name": "Mithril",
-        "poolId": "pool17am8pt0vu7zp8du7edlnz7x9sq4pln22rsn802gkr062vtp6fdp",
-        "poolHash": "f77670adece78413b79ecb7f3178c5802a1fcd4a1c2677a9161bf4a6",
-        "social": {
-          "website": "https://www.hodlerstaking.com",
-          "twitter": "HodlerCoalition",
-          "discord": "Abrahamer_HodlerCoalition#0802",
-          "telegram": "@HodlerStaking",
-          "emailAddress": "hodlercoalition@gmail.com",
-          "youtube": "",
-          "facebook": ""
-        },
-        "operatorName": "Hodler Staking Services",
-        "100%renewables?": "Yes",
-        "membershipType?": "Active",
-        "github": "Fuma419",
-        "ispoEpochStart": 377,
-        "donationWalletStakeAddress": "stake1ux7kq406tvp64r69fmx2sqykzxnee4hgu2cv9zr9vv563xsmh9jjm"
+        "2": {
+          "name": "Mithril",
+          "poolId": "pool17am8pt0vu7zp8du7edlnz7x9sq4pln22rsn802gkr062vtp6fdp",
+          "poolHash": "f77670adece78413b79ecb7f3178c5802a1fcd4a1c2677a9161bf4a6",
+          "social": {
+            "website": "https://www.hodlerstaking.com",
+            "twitter": "HodlerCoalition",
+            "discord": "Abrahamer_HodlerCoalition#0802",
+            "telegram": "@HodlerStaking",
+            "emailAddress": "hodlercoalition@gmail.com",
+            "youtube": "",
+            "facebook": ""
+          }
+        }
+      }
+    },
+    "preprod": {
+      "members": {
+        "1": {
+          "name": "Hodler Coalition [Preprod]",
+          "poolId": "pool1z05xqzuxnpl8kg8u2wwg8ftng0fwtdluv3h20ruryfqc5gc3efl",
+          "poolHash": "13e8600b86987e7b20fc539c83a57343d2e5b7fc646ea78f8322418a",
+          "social": {
+            "website": "https://www.hodlerstaking.com",
+            "twitter": "HodlerCoalition",
+            "discord": "Abrahamer_HodlerCoalition#0802",
+            "telegram": "@HodlerStaking",
+            "emailAddress": "hodlercoalition@gmail.com",
+            "youtube": "",
+            "facebook": ""
+          }
+        }
+      }
+    },
+    "preview": {
+      "members": {
+        "1": {
+          "name": "Hodler Coalition Preview",
+          "poolId": "pool1y0uxkqyplyx6ld25e976t0s35va3ysqcscatwvy2sd2cwcareq7",
+          "poolHash": "23f86b0081f90dafb554c97da5be11a33b124018863ab7308a835587",
+          "social": {
+            "website": "https://www.hodlerstaking.com",
+            "twitter": "HodlerCoalition",
+            "discord": "Abrahamer_HodlerCoalition#0802",
+            "telegram": "@HodlerStaking",
+            "emailAddress": "hodlercoalition@gmail.com",
+            "youtube": "",
+            "facebook": ""
+          }
+        }
       }
     }
   }
