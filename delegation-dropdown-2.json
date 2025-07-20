@@ -1,9 +1,9 @@
 {
+  "about": {
+    "operatorName": "Hodler Staking Services",
+    "100%renewables?": "Yes"
+  },
   "adapools": {
-    "about": {
-      "operatorName": "Hodler Staking Services",
-      "100%renewables?": "Yes"
-    },
     "mainnet": {
       "members": {
         "1": {
